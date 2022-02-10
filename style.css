@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    padding-top: 60px;
+    /* margin-top: 65px; */
+    padding-top: 65px;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
@@ -29,12 +29,19 @@ h2{
 
 .hakkimizda{
     background-color: #f2f2f2;
+    padding: 70px 0 10px 0;
 }
+
+.ekibimiz{
+    padding-top: 70px;
+}
+
+
 
 hr{
     border-bottom: 3px solid #343a40;
     margin: 30px auto;
-    max-width: 300px;
+    max-width: 500px;
 }
 
 .dark {
@@ -59,10 +66,20 @@ hr{
 
 .galeri{
     background-color: #f2f2f2;
+    padding-top: 70px;
 }
 
 .figure:hover{
     box-shadow: 0 0 10px 1px #666e75;
     transition: 0.3s;
     opacity: 0.8;
+}
+
+.iletisim{
+    padding-bottom: 20px;
+}
+
+.iletisim label{    
+    color: #343a40;
+    font-weight: bold;
 }
